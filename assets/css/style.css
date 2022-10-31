@@ -1,0 +1,132 @@
+body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 25pt;
+}
+
+form {
+    border-radius: 1rem 1rem 0 0;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    padding-bottom: 0;
+}
+
+select {
+    border-radius: 1rem;
+    color: #ffffff;
+    border-radius: 1rem;
+    font-size: 12pt;
+    background: linear-gradient(0.25turn, #0b3e52, #315c0e, #5d330a);
+    width: 6rem;
+}
+
+.why {
+    flex-direction: column;
+    accent-color: red;
+}
+
+input {
+    border-radius: 1rem;
+}
+
+legend {
+    width: 100%;
+    border-radius: .5rem;
+    background: linear-gradient(0.25turn, #773e00, #2c6301, #02577b);
+    color: #ffffff;
+    text-align: center;
+}
+
+#butt {
+    width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    background: linear-gradient(0.25turn, #773e00, #2c6301, #02577b);
+    color: #ffffff;
+    padding-bottom: 0;
+}
+
+.ASDF {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dddddd
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+td,
+th {
+    border: solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.aa {
+    background: linear-gradient(0.25turn, #0b3e52, #315c0e, #5d330a);
+}
+
+
+/* !! border*/
+
+.BOX {
+    border-radius: 1rem;
+    POSITION: RELATIVE;
+    WIDTH: 500PX;
+    HEIGHT: FIT-CONTENT;
+    LINE-HEIGHT: 35PX;
+    TEXT-ALIGN: CENTER;
+    TEXT-TRANSFORM: UPPERCASE;
+    BACKGROUND: #111111;
+}
+
+.BOX::BEFORE,
+.BOX::AFTER {
+    CONTENT: "";
+    Z-INDEX: -1;
+    POSITION: ABSOLUTE;
+    WIDTH: CALC(100% + 6PX);
+    HEIGHT: CALC(100% + 6PX);
+    TOP: -3PX;
+    LEFT: -3PX;
+    border-radius: 1rem;
+    BACKGROUND: LINEAR-GRADIENT(45DEG, #FC0090, #0000FF, #00FF00, #FF0000, #FFF000, #FC0090, #0000FF, #00FF00, #FF0000, #FFF000);
+    BACKGROUND-SIZE: 300%;
+    ANIMATION: BORDER 20S LINEAR INFINITE;
+}
+
+.BOX::AFTER {
+    border-radius: 1rem;
+    FILTER: BLUR(30PX);
+}
+
+@KEYFRAMES BORDER {
+    0%,
+    100% {
+        BACKGROUND-POSITION: 0 0;
+    }
+    50% {
+        BACKGROUND-POSITION: 300%;
+    }
+}
