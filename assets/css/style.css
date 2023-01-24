@@ -10,6 +10,7 @@ body {
 h1 {
     font-family: monospace;
     font-size: 25pt;
+    color: white;
 }
 
 form {
